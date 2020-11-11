@@ -1,0 +1,124 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+}
+.hero-banner {
+  background: url('./assets/bg.png');
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+}
+.hero-banner-2 {
+  background: url('./assets/bg-2.png');
+  height: 100vh;
+  overflow-y: auto;
+}
+.navbar-nav .nav-item .nav-link {
+  color: white;
+  font-weight: 300;
+}
+.nav-item .nav-link.disabled {
+  opacity: 0.7;
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+
+h1.title {
+  font-size: 76px;
+  font-weight: 600;
+}
+
+.banner-info {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.flex {
+  display: flex;
+}
+
+/* Banner */
+.banner-info__intro {
+  flex: 1;
+}
+.banner-info__intro .title{
+  color: white;
+  width: 515px;
+}
+.banner-info__intro .subtitle {
+  color: white;
+  opacity: 0.7;
+  font-weight: 300;
+  margin-top: 24px;
+}
+.privacy-text {
+  color: #3487fc;
+}
+
+/* Btn */
+.btn-group {
+  margin-top: 48px;
+}
+.btn-group .btn {
+  padding: 15px 20px;
+  font-weight: 400;
+}
+.btn-group .btn.btn-primary {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}
+.btn-group .btn.btn-link {
+  color: white;
+}
+
+/* Process Item */
+.process-container {
+  padding-top: 120px;
+  padding-bottom: 80px;
+  color: white;
+}
+.process + .process{
+  margin-top: 30px;
+}
+.process-item {
+  position: relative;
+  border-radius: 16px;
+  height: 364px;
+}
+.process-item::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: calc(100% - 30px);
+  top: 0;
+  left: 0;
+  background: linear-gradient(143.5deg, #2D4580 0%, #1F3166 88.58%);
+  opacity: 0.4;
+  border-radius: 16px;
+}
+
+.process-info {
+  color: white;
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 24px;
+  left: 0;
+}
+.process-img {
+  text-align: center;
+  margin-top: 68px;
+  margin-right: 20px;
+}
+.process-img.extension-img {
+  margin-top: 46px;
+}
+.date {
+  color: #276EF1;
+}
