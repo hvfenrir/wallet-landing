@@ -82,6 +82,9 @@ h1.title {
   padding-bottom: 80px;
   color: white;
 }
+.process-container .subtitle {
+  opacity: 0.7;
+}
 .process + .process{
   margin-top: 30px;
 }
